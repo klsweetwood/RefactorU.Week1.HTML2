@@ -1,0 +1,98 @@
+body {
+	background-color: #7F8C8D;
+	font-family: Arial;
+}
+#body {
+	margin: 0 auto;
+	width: 35%;
+	background-color: #ECF0F1;
+	overflow: hidden;
+}
+#Top-Menu{
+	background-color: #34495E;
+	text-align: right;
+	margin: 0;
+	padding: 0px;
+}
+#Top-Menu ul, #Top-Menu ul li{
+	list-style-type: none;
+	display: inline-block;
+	color: #FFF;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 0 12px;
+}
+.color-bar{
+	position: absolute;
+	bottom: 0;
+	height: 5px;
+	width: 100%;
+	background-color: #27AE60;
+}
+
+.header {
+	position: relative;
+	background-color: #2ECC71;
+	height: 225px;
+	
+}
+.header h1 {
+	color: #FFF;
+	position: absolute;
+	left: 10px;
+	bottom: 0px;
+	font-size: 24px;
+}
+.article, .section{
+	margin: 4%;
+}
+.article h2{
+	font-size: 18px;
+	margin: 25px 0;
+}
+.section h3{
+	margin: 15px 2%;
+	font-size: 14px;
+	width: 95%;
+	border-bottom: 1px solid #BDC3C7;
+}
+.section div{
+	background-color: #95A5A6;
+	padding: 10px;
+}
+p {
+	margin: 10px 5%;
+	font-size: 12px;
+}
+th{
+	text-align: left;
+}
+li {
+	font-size: 12px;
+	margin: 15px 0;
+}
+table, td{
+	border-collapse: collapse;
+	border: 1px solid black;
+	font-size: 12px;
+	padding: 5px;
+}
+thead{
+	background-color: #95A5A6;
+}
+.button {
+	text-align: center;
+	background-color: #3498db;
+	padding: 5px 20px;
+	color: #FFF;
+}
+img {
+	width: 100%;
+}
+.input-info{
+	background-color: #FFF;
+	border: 1px solid #BDC3C7;
+	height: 20px;
+	width: 250px;
+	margin-right: 5%;
+}
